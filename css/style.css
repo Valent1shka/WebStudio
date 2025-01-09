@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
 
+
 span#Web{
     color: blue;
 }
@@ -29,8 +30,6 @@ html{
     font-style: normal;
 }
 
-
-
 #button{
     background-color: rgb(33, 150, 243);
     color: white;
@@ -38,4 +37,54 @@ html{
 
 .list_list-item:hover{
     color: rgb(33, 150, 240);
+}
+
+.second-title{
+    text-align: center;
+}
+
+.footer{ 
+    width: 1600px;
+    height: 252px;
+}
+
+span#address{
+    color: white;
+}
+
+.first-section{
+    background-color: rgb(47,48,58 );
+    width: 1600px;
+    height: 600px;
+}
+
+*{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.first-title{
+    color: white;
+    text-align: center;
+}
+
+#button{
+    margin: 0 auto;
+    display: block;
+}
+
+.main-section{
+    width: 1170px;
+    height: 98px;
+}
+
+.second-section{
+    text-align: center;
+}
+
+.last-section{
+    text-align: center;
 }
