@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap');
 
-
-span#Web{
-    color: blue;
+*{
+    list-style-type: none;
+    text-decoration: none;
 }
 
-span#st{
+.logo{
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+}
+
+.Web{
+    color: #2196F3;
+}
+
+.st1{
     color: black;
 }
 
-span#st2{
+.st2{
     color: white;
 }
 
 footer{
     background-color: rgb(47, 48, 58);
+    height: 252px;
 }
 
 span{
@@ -24,15 +35,38 @@ span{
     font-style: normal;
 }
 
-html{
+body{
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
 }
 
-#button{
+
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-button{
     background-color: rgb(33, 150, 243);
-    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    padding: 10px 32px;
+    margin: 0 auto;
+    display: block;
+    width: 220px;
+    border: none;
 }
 
 .list_list-item:hover{
@@ -41,34 +75,45 @@ html{
 
 .second-title{
     text-align: center;
-}
-
-.footer{ 
-    width: 1600px;
-    height: 252px;
-}
-
-span#address{
-    color: white;
-}
-
-.first-section{
-    background-color: rgb(47,48,58 );
-    width: 1600px;
-    height: 600px;
-}
-
-*{
-    text-decoration: none;
-}
-
-ul li{
-    display: inline-block;
-}
-
-.first-title{
-    color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
     text-align: center;
+    color: #212121;
+    padding-top: 94px;
+}
+
+.header-address,
+.footer-address{
+    color: white;
+    font-style: normal;
+}
+
+.header-tel{
+    color: #757575;
+}
+
+.header-email{
+    color: #2196F3;
+    gap: 50px;
+}
+
+.hero{
+    background-color: rgb(47,48,58);
+    padding: 200px 0px;
+}
+
+
+.hero-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
 }
 
 #button{
@@ -85,6 +130,193 @@ ul li{
     text-align: center;
 }
 
+.header-nav{
+    color: black;
+}
+
 .last-section{
     text-align: center;
+    background-color: #F5F4FA;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comand-ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comand-li{
+    border-radius: 0 0 4px 4px;
+}
+
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-list-item{
+    margin: 90px 0 90px 0;
+}
+
+.main-li-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-right: 30px;
+}
+
+.last-img{
+    padding: 0 30px 0 0;
+}
+
+.footer-list{
+    margin: 60px 1154px 60px 215px;
+}
+
+.comand-li-name{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.comand-li-name,
+.comad-li-title{
+    background-color: #fff;
+}
+
+.header-list-item{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+
+
+
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    color: (255, 255, 255, 0.6);
+}
+
+.products-btn{
+    text-align: center;
+
+}
+
+.products-btn:hover{
+    color: #2196F3;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.second-section{
+  text-align: center;
+  padding: 0 30px;
+}
+
+.last-section{
+  text-align: center;
+}
+
+.comand-ul{
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.last-word{
+  color: white;
+}
+
+.benefits{
+  padding: 94px 0 94px 0;
+}
+
+.main-description{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  padding-right: 30px;
+}
+.comand-ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0 30px;
+}
+
+.benefits-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer{
+  height: 252px;
+  background: #2f303a;
+  padding: 60px 1240px 161px 215px;
+}
+
+/* .products-div{
+  display: flex;
+  justify-content: space-between;
+  padding: 34px 0 30px;
+  list-style: none;
+} */
+
+.products-second-div{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  list-style: none;
+}
+
+.products-third-div{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 114px;
+  list-style: none;
+}
+
+.last-logo{
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.products-description{
+    color: #757575;
 }
