@@ -1,0 +1,46 @@
+footer {
+    background-color: rgb(47, 48, 58);
+    padding: 0;
+}
+
+span {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        width: 738px;
+    }
+
+    @media (max-width: 480px) {
+        width: 450px;
+    }
+}

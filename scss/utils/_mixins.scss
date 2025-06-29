@@ -1,0 +1,17 @@
+@mixin section-padding($padtop, $padbottom){
+    padding-top: $padtop;
+    padding-bottom: $padbottom;
+}
+
+@mixin secion-padding-adp($padtopDesk, $padbottomDesk, $padtopTab, $padbottomTab, $padtopMob, $padbottomMob){
+    padding-top: $padtopDesk;
+    padding-bottom: $padbottomDesk;
+    @media (max-width: 768px){
+        padding-top: $padtopTab;
+        padding-bottom: $padbottomTab;
+    }
+    @media (max-width: 400px){
+        padding-top: $padtopMob;
+        padding-bottom: $padbottomMob;
+    }
+}
