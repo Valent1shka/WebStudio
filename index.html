@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
@@ -18,31 +19,31 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header-content">
-                <a class="logo" href="#"><span class="Web">Web</span><span class="st1">Studio</span></a>
-                <nav class="header-nav">
-                    <ul class="header-list">
-                        <li class="header-list-item">
-                            <a href="#" class="header-list-a">Студія</a>
+            <div class="header__content">
+                <a class="header__logo" href="#"><span class="Web">Web</span><span class="header__logo--marked">Studio</span></a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list--item">
+                            <a href="#" class="header__list--a">Студія</a>
                         </li>
-                        <li class="header-list-item">
-                            <a href="./portfolio.html" class="header-list-a">Портфоліо</a>
+                        <li class="header__list--item">
+                            <a href="./portfolio.html" class="header__list--a">Портфоліо</a>
                         </li>
-                        <li class="header-list-item">
+                        <li class="header__list--item">
                             <a href="#" class="header-list-a">Контакти</a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <address class="header-address">
-                <a href="mailto:info@devstudio.com" class="header-email">
-                    <svg width="16" height="12" viewBox="0 0 16 12" are-lable="envelope" class="svg-envelope">
+            <address class="header__address">
+                <a href="mailto:info@devstudio.com" class="header__info">
+                    <svg width="16" height="12" viewBox="0 0 16 12" are-lable="envelope" class="svg__envelope">
                         <use href="./img/sprite.svg#email-logo"></use>
                     </svg>
                     info@devstudio.com
                 </a>
-                <a href="tel:+380961111111" class="header-tel">
-                    <svg width="10" height="16" viewBox="0 0 10 16" are-lable="vector" class="svg-vector">
+                <a href="tel:+380961111111" class="header__info">
+                    <svg width="10" height="16" viewBox="0 0 10 16" are-lable="vector" class="svg__vector">
                         <use href="./img/sprite.svg#phone-logo"></use>
                     </svg>
                     +38 096 111 11 11
@@ -50,62 +51,65 @@
             </address>
         </div>
     </header>
+
+
+
     <main>
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">
-                    Ефективні рішення для <br />
+                <h1 class="hero__title">
+                    Ефективні рішення для <br/>
                     вашого бізнесу
                 </h1>
-                <button id="button" data-open-modal class="hero-btn">Зaмовити послугу</button>
+                <button id="button" data-open-modal class="hero__btn">Зaмовити послугу</button>
             </div>
         </section>
         <section class="benefits">
             <div class="container">
-                <ul class="benefits-list">
-                    <li class="benefits-item">
+                <ul class="benefits__list">
+                    <li class="benefits__item">
                         <div>
-                            <svg width="66" height="70" class="image-decoration">
+                            <svg width="66" height="70" class="benefits__decoration">
                                 <use href="./img/sprite.svg#antenna"></use>
                             </svg>
-                            <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                            <p class="main-description">
+                            <h3 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                            <p class="benefits__description">
                                 Ідейні міркування, і навіть початок повсякденної роботи з
                                 формування позиції.
                             </p>
                         </div>
                     </li>
-                    <li class="benefits-item">
+                    <li class="benefits__item">
                         <div>
-                            <svg width="68" height="70" class="image-decoration">
+                            <svg width="68" height="70" class="benefits__decoration">
                                 <use href="./img/sprite.svg#clock"></use>
                             </svg>
-                            <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
-                            <p class="main-description">
+                            <h3 class="benefits__title">ПУНКТУАЛЬНІСТЬ</h3>
+                            <p class="benefits__description">
                                 Завдання організації, особливо рамки і місце навчання кадрів
                                 тягне у себе.
                             </p>
                         </div>
                     </li>
-                    <li class="benefits-item">
+                    <li class="benefits__item">
                         <div>
-                            <svg width="70" height="54" class="image-decoration">
+                            <svg width="70" height="54" class="benefits__decoration">
                                 <use href="./img/sprite.svg#diagram"></use>
                             </svg>
-                            <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
-                            <p class="main-description">
+                            <h3 class="benefits__title">ПЛАНУВАННЯ</h3>
+                            <p class="benefits__description">
                                 Так само консультація з широким активом значною мірою
                                 зумовлює.
                             </p>
                         </div>
                     </li>
-                    <li class="benefits-item">
+                    <li class="benefits__item">
                         <div>
-                            <svg width="70" height="70" class="image-decoration">
+                            <svg width="70" height="70" class="benefits__decoration">
                                 <use href="./img/sprite.svg#astronaut"></use>
                             </svg>
-                            <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                            <p class="main-description">
+                            <h3 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                            <p class="benefits__description">
                                 Значимість цих проблем настільки очевидна, що реалізація
                                 планових завдань.
                             </p>
@@ -114,51 +118,51 @@
                 </ul>
             </div>
         </section>
-        <section class="second-section">
+        <section class="second__section">
             <div class="container">
-                <h2 class="second-title">Чим ми займаємося</h2>
-                <div class="second-section-wrapper">
-                    <div class="card">
-                        <img src="./img/Web-studio/img(3).png" alt="Робота" width="370" height="294" class="image-work" />
-                        <div class="div-shadov">Десктопні додатки</div>
+                <h2 class="second__section--title">Чим ми займаємося</h2>
+                <div class="second__section--wrapper">
+                    <div class="second__section--card">
+                        <img src="./img/Web-studio/img(3).png" alt="Робота" width="370" height="294" class="second__section--work" />
+                        <div class="second__section--title">Десктопні додатки</div>
                     </div>
-                    <div class="card">
-                        <img src="./img/Web-studio/img(4).png" alt="Компютер" width="370" height="294" class="image-work" />
-                        <div class="div-shadov">Мобільні додатки</div>
+                    <div class="second__section--card">
+                        <img src="./img/Web-studio/img(4).png" alt="Компютер" width="370" height="294" class="second__section--work" />
+                        <div class="second__section--title">Мобільні додатки</div>
                     </div>
-                    <div class="card">
-                        <img src="./img/Web-studio/img(5).png" alt="Планшет" width="370" height="294" class="image-work" />
-                        <div class="div-shadov">Дизайнерські рішення</div>
+                    <div class="second__section--card">
+                        <img src="./img/Web-studio/img(5).png" alt="Планшет" width="370" height="294" class="second__section--work" />
+                        <div class="second__section--title">Дизайнерські рішення</div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="last-section">
+        <section class="comand">
             <div class="container">
-                <h2 class="second-title">Наша команда</h2>
-                <ul class="comand-ul">
-                    <li class="comand-ul-list">
+                <h2 class="comand__title">Наша команда</h2>
+                <ul class="comand__ul">
+                    <li class="comand__ul--item">
                         <img src="./img/Web-studio/img(4).jpg" alt="Чоловік1" width="270" height="260" />
                         <h4>Ігор Дем'яненко</h4>
-                        <p class="main-description">Product Designer</p>
+                        <p class="comand__description">Product Designer</p>
 
-                        <ul class="mesages-ul">
-                            <li class="mesages-li">
+                        <ul class="comand__mesages--ul">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="instagram">
                                     <use href="./img/sprite.svg#inst"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="18" viewBox="0 0 20 18" are-lable="twiter">
                                     <use href="./img/sprite.svg#twitter"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="facebok">
                                     <use href="./img/sprite.svg#facebook"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="in">
                                     <use href="./img/sprite.svg#in"></use>
                                 </svg>
@@ -166,27 +170,27 @@
                         </ul>
                     </li>
 
-                    <li class="comand-ul-list">
+                    <li class="comand__ul--item">
                         <img src="./img/Web-studio/img(5).jpg" alt="Жінка1" width="270" height="260" />
                         <h4>Ольга Рєпіна</h4>
-                        <p class="main-description">Frontend Developer</p>
-                        <ul class="mesages-ul">
-                            <li class="mesages-li">
+                        <p class="comand__description">Frontend Developer</p>
+                        <ul class="comand__mesages--ul">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="instagram">
                                     <use href="./img/sprite.svg#inst"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="18" viewBox="0 0 20 18" are-lable="twiter">
                                     <use href="./img/sprite.svg#twitter"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="facebok">
                                     <use href="./img/sprite.svg#facebook"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="in">
                                     <use href="./img/sprite.svg#in"></use>
                                 </svg>
@@ -194,27 +198,27 @@
                         </ul>
                     </li>
 
-                    <li class="comand-ul-list">
+                    <li class="comand__ul--item">
                         <img src="./img/Web-studio/img(6).jpg" alt="Чоловік1" width="270" height="260" />
                         <h4>Микола Тарасов</h4>
-                        <p class="main-description">Marketing</p>
-                        <ul class="mesages-ul">
-                            <li class="mesages-li">
+                        <p class="comand__description">Marketing</p>
+                        <ul class="comand__mesages--ul">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="instagram">
                                     <use href="./img/sprite.svg#inst"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="18" viewBox="0 0 20 18" are-lable="twiter">
                                     <use href="./img/sprite.svg#twitter"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="facebok">
                                     <use href="./img/sprite.svg#facebook"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="in">
                                     <use href="./img/sprite.svg#in"></use>
                                 </svg>
@@ -222,27 +226,27 @@
                         </ul>
                     </li>
 
-                    <li class="comand-ul-list">
+                    <li class="comand__ul--item">
                         <img src="./img/Web-studio/img(7).jpg" alt="Чоловік1" width="270" height="260" />
                         <h4>Михайло Єрмаков</h4>
-                        <p class="main-description">UI Designer</p>
-                        <ul class="mesages-ul">
-                            <li class="mesages-li">
+                        <p class="comand__description">UI Designer</p>
+                        <ul class="comand__mesages--ul">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="instagram">
                                     <use href="./img/sprite.svg#inst"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="18" viewBox="0 0 20 18" are-lable="twiter">
                                     <use href="./img/sprite.svg#twitter"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="facebok">
                                     <use href="./img/sprite.svg#facebook"></use>
                                 </svg>
                             </li>
-                            <li class="mesages-li">
+                            <li class="comand__mesages--li">
                                 <svg width="20" height="20" viewBox="0 0 20 20" are-lable="in">
                                     <use href="./img/sprite.svg#in"></use>
                                 </svg>
@@ -252,36 +256,36 @@
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="client">
             <div class="container">
-                <h2 class="h2-client">Постійні клієнти</h2>
-                <ul class="client-ul">
-                    <li class="client-li">
+                <h2 class="client__h2">Постійні клієнти</h2>
+                <ul class="client__ul">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo1">
                             <use href="./img/sprite.svg#logo-1"></use>
                         </svg>
                     </li>
-                    <li class="client-li">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo2">
                             <use href="./img/sprite.svg#logo-2"></use>
                         </svg>
                     </li>
-                    <li class="client-li">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo3">
                             <use href="./img/sprite.svg#logo-3"></use>
                         </svg>
                     </li>
-                    <li class="client-li">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo4">
                             <use href="./img/sprite.svg#logo-4"></use>
                         </svg>
                     </li>
-                    <li class="client-li">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo5">
                             <use href="./img/sprite.svg#logo-5"></use>
                         </svg>
                     </li>
-                    <li class="client-li">
+                    <li class="client__li">
                         <svg width="106" height="60" viewBox="0 0 106 60" are-lable="logo6">
                             <use href="./img/sprite.svg#logo-6"></use>
                         </svg>
@@ -292,32 +296,32 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="main-footer">
-                <div class="logo-footer">
-                    <a class="last-logo" href="#"><span>Web</span>Studio</a>
-                    <address class="last-word">м. Київ, пр-т Лесі Українки, 26</address>
-                    <a class="last-word" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a><br />
-                    <a class="last-word" href="tel:+38 096 111 11 11"><span>+38 096 111 11 11</span></a>
+            <div class="footer__main">
+                <div class="footer__logo">
+                    <a class="footer__logo" href="#"><span>Web</span>Studio</a>
+                    <address class="footer__last--word">м. Київ, пр-т Лесі Українки, 26</address>
+                    <a class="footer__word" href="mailto:info@devstudio.com"><span>info@devstudio.com</span></a><br />
+                    <a class="footer__word" href="tel:+38 096 111 11 11"><span>+38 096 111 11 11</span></a>
                 </div>
-                <div class="footer-message">
-                    <h3 class="footer-h3">ПРИЄДНУЙТЕСЬ</h3>
-                    <ul class="footer-mesages-ul">
-                        <li class="footer-mesages-li">
+                <div class="footer__message">
+                    <h3 class="footer__h3">ПРИЄДНУЙТЕСЬ</h3>
+                    <ul class="footer__mesages--ul">
+                        <li class="footer__mesages--li">
                             <svg width="20" height="20" viewBox="0 0 20 20" are-lable="instagram">
                                 <use href="./img/sprite.svg#inst"></use>
                             </svg>
                         </li>
-                        <li class="footer-mesages-li">
+                        <li class="footer__mesages--li">
                             <svg width="20" height="18" viewBox="0 0 20 18" are-lable="twiter">
                                 <use href="./img/sprite.svg#twitter"></use>
                             </svg>
                         </li>
-                        <li class="footer-mesages-li">
+                        <li class="footer__mesages--li">
                             <svg width="20" height="20" viewBox="0 0 20 20" are-lable="facebok">
                                 <use href="./img/sprite.svg#facebook"></use>
                             </svg>
                         </li>
-                        <li class="footer-mesages-li">
+                        <li class="footer__mesages--li">
                             <svg width="20" height="20" viewBox="0 0 20 20" are-lable="in">
                                 <use href="./img/sprite.svg#in"></use>
                             </svg>
@@ -325,10 +329,10 @@
                     </ul>
                 </div>
                 <div>
-                    <h3 class="title-email">Підпишіться на розсилку</h3>
-                    <div class="modal-input">
-                        <input class="form-input" type="email" placeholder="E-mail" />
-                        <button type="submit" disabled class="modal-btn">
+                    <h3 class="footer__title--email">Підпишіться на розсилку</h3>
+                    <div class="footer__input">
+                        <input class="footer__modal--input" type="email" placeholder="E-mail" />
+                        <button type="submit" disabled class="footer__modal--btn">
                             Підписатися <i class="fa-brands fa-telegram"></i>
                         </button>
                     </div>
@@ -337,39 +341,39 @@
         </div>
     </footer>
 
-    <div class="backdrop is-hiden">
+    <div class="backdrop is__hiden">
         <div class="modal">
-            <button class="modal-close">
+            <button class="modal__close">
                 <i class="fa-solid fa-xmark"></i>
             </button>
 
-            <h3 class="modal-title">
+            <h3 class="modal__title">
                 Залиште свої дані, ми вам передзвонимо
             </h3>
 
-            <div class="modal-field">
+            <div class="modal__field">
                 <label for="name">I'мя</label>
-                <input name="name" type="text" required class="form-input" />
+                <input name="name" type="text" required class="form__input" />
             </div>
             <label for="phone">Телефон</label>
-            <div class="modal-field">
-                <input class="form-input" name="phone" type="tel" required />
+            <div class="modal__field">
+                <input class="form__input" name="phone" type="tel" required />
             </div>
             <label for="email">Пошта</label>
-            <div class="modal-field">
-                <input class="form-input" name="email" type="email" required />
+            <div class="modal__field">
+                <input class="form__input" name="email" type="email" required />
             </div>
             <label for="message">Коментар</label>
-            <div class="modal-field">
+            <div class="modal__field">
                 <textarea name="message">Введіть текст</textarea>
             </div>
-            <div class="modal-field field-checkbox">
-                <input name="policy" checked type="checkbox" class="form-checkbox" required />
-                <label for="policy">Погоджуюся з розсилкою та приймаю <span><a class="a-document">Умови
+            <div class="modal__field field__checkbox">
+                <input name="policy" checked type="checkbox" class="form__checkbox" required />
+                <label for="policy">Погоджуюся з розсилкою та приймаю <span><a class="a__document">Умови
                             договору</a></span></label>
             </div>
 
-            <button type="submit" disabled class="modal-button">Відправити</button>
+            <button type="submit" disabled class="modal__button">Відправити</button>
             </form>
         </div>
     </div>

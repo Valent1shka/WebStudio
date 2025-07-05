@@ -1,0 +1,71 @@
+.comand {
+    padding: 0;
+    text-align: center;
+    padding: 94px 0;
+    background: #f5f4fa;
+
+    &__title {
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+    }
+
+    &__ul {
+        letter-spacing: 0.03em;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-right: 30px;
+
+        &--item {
+            border-radius: 0 0 4px 4px;
+            width: 270px;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+                0 1px 3px 0 rgba(0, 0, 0, 0.12);
+            background: #fff;
+        }
+    }
+
+    &__description {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #757575;
+    }
+
+    &__mesages--ul {
+        gap: 10px;
+        list-style: none;
+        fill: #afb1b8;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__mesages--li {
+        width: 44px;
+        height: 44px;
+        background-color: #fff;
+        border-radius: 50%;
+        text-decoration: none;
+        transition: 1s;
+        cursor: pointer;
+
+
+        &:hover {
+            background-color: #2196f3;
+            fill: #fff;
+        }
+    }
+}

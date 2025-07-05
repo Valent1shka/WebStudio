@@ -1,0 +1,38 @@
+.benefits {
+    padding: 94px 0 94px 0;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 30px;
+        padding: 0;
+    }
+
+    &__title {
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #212121;
+    }
+
+    &__description {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    &__decoration {
+        border-radius: 4px;
+        width: 270px;
+        height: 120px;
+        background: #f5f4fa;
+        gap: 30px;
+        padding: 25px 102.34px;
+    }
+}

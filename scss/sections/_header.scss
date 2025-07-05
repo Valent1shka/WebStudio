@@ -4,6 +4,13 @@
     align-items: center;
     justify-content: space-between;
 
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 93px;
+        height: 80px;
+    }
+
     &__logo {
         font-family: $second-family;
         font-weight: 700;
@@ -16,13 +23,6 @@
         }
     }
 
-    &__content {
-        display: flex;
-        align-items: center;
-        gap: 93px;
-        height: 80px;
-    }
-
     &__list {
         color: $second-color;
         display: flex;
@@ -30,7 +30,7 @@
         gap: 10px;
         align-items: center;
 
-        &--link {
+        &--a {
             font-weight: 500;
             font-size: 14px;
             letter-spacing: 0.02em;

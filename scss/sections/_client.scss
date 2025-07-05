@@ -1,0 +1,43 @@
+.client {
+    &__h2 {
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+        padding-top: 94px;
+        margin-bottom: 50px;
+    }
+
+    &__ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        padding: 0 0 94px 0;
+        text-align: center;
+        fill: #afb1b8;
+
+        &:hover {
+            color: #2196f3;
+        }
+    }
+
+    &__li {
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+        padding: 16px 32px;
+        transition: 2s;
+
+        &:hover {
+            border-color: #2196f3;
+            cursor: pointer;
+            svg {
+                fill: #2196f3;
+                transition: 2s;
+            }
+        }
+    }
+}

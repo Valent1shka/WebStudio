@@ -1,0 +1,128 @@
+.footer {
+    background: #2f303a;
+    padding: 60px 0 161px 0;
+
+    &__h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &__mesages--ul {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        fill: #fff;
+        padding: 0;
+    }
+
+    &__mesages--li {
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: 1s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #2196f3;
+        }
+    }
+
+    &__main {
+        display: flex;
+        gap: 70px;
+    }
+
+    &__logo {
+        color: white;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+
+        span {
+            color: #2196f3;
+        }
+    }
+
+    &__last--word {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        color: #fff;
+    }
+
+    &__word {
+        color: $five-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        letter-spacing: 0.03em;
+        font-style: normal;
+
+        span {
+            color: rgba(255, 255, 255, 0.6);
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 171%;
+            letter-spacing: 0.03em;
+        }
+    }
+
+    &__title--email {
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &__input {
+        display: flex;
+        gap: 12px;
+    }
+
+    &__modal--input {
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        width: 448px;
+        height: 40px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: rgba(33, 150, 243, 0);
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+    }
+
+    &__modal--btn {
+        font-weight: 500;
+        font-size: 18px;
+        color: #fff;
+        background-color: #2196f3;
+        border-radius: 5px;
+        border: none;
+        height: 40px;
+        transition: 1s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: transparent;
+            color: #0bf5ce;
+            border: 1px solid #0bf5ce;
+        }
+    }
+}

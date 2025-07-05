@@ -490,7 +490,7 @@ span {
   list-style: none;
   display: flex;
   gap: 30px;
-  padding-bottom: 94px;
+  padding: 0 0 94px 0;
   text-align: center;
   fill: #afb1b8;
 }
@@ -510,7 +510,6 @@ span {
 .client-li:hover {
   border-color: #2196f3;
   cursor: pointer;
-  background-color: #47073e;
 }
 .client-li:hover svg {
   fill: #2196f3;
@@ -527,6 +526,7 @@ span {
   justify-content: center;
   text-decoration: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 .footer-mesages-li:hover {
@@ -558,6 +558,7 @@ span {
   justify-content: center;
   text-decoration: none;
   transition: 1s;
+  cursor: pointer;
 }
 
 .mesages-li:hover {
@@ -831,3 +832,4 @@ textarea {
   text-decoration-skip-ink: none;
   color: #2196f3;
 }
+
